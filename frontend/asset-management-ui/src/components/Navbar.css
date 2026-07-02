@@ -1,0 +1,81 @@
+.navbar {
+  background: white;
+  height: 70px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 25px;
+
+  box-shadow:
+    0 2px 12px rgba(0,0,0,0.08);
+}
+
+.navbar-left h2 {
+  margin: 0;
+  color: #111827;
+  font-size: 24px;
+}
+
+.navbar-left span {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-avatar {
+  width: 42px;
+  height: 42px;
+
+  border-radius: 50%;
+
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #7c3aed
+  );
+
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+}
+
+.role-badge {
+  background: #dcfce7;
+  color: #166534;
+
+  padding: 6px 12px;
+  border-radius: 999px;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.logout-btn {
+  padding: 10px 16px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #dc2626;
+  color: white;
+
+  cursor: pointer;
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  transform: translateY(-2px);
+}

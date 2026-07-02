@@ -1,0 +1,82 @@
+.repair-container {
+  padding: 30px;
+  min-height: 100vh;
+  background: linear-gradient(
+    180deg,
+    #f8fafc,
+    #eef2ff
+  );
+}
+
+.repair-header {
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #7c3aed
+  );
+
+  color: white;
+  padding: 25px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+
+  box-shadow: 0 15px 30px rgba(239,68,68,0.2);
+}
+
+.repair-header h2 {
+  margin: 0;
+}
+
+.repair-header p {
+  margin-top: 10px;
+}
+
+.ticket-card {
+  max-width: 700px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.ticket-card label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.ticket-card select,
+.ticket-card textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.ticket-card textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #7c3aed
+  );
+
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  transform: translateY(-3px);
+}
