@@ -10,7 +10,7 @@ function AdminRepairTickets() {
     const token = localStorage.getItem("token");
 
     const res = await axios.get(
-      "http://127.0.0.1:8000/api/tickets/",
+      "https://jyothish.pythonanywhere.com/api/tickets/",
       {
         headers: {
           Authorization: `Bearer ${token}`
@@ -33,7 +33,7 @@ function AdminRepairTickets() {
     );
 
     await axios.put(
-      `http://127.0.0.1:8000/api/tickets/${id}/`,
+      `https://jyothish.pythonanywhere.com/api/tickets/${id}/`,
       {
         ...ticket,
         status

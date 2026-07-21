@@ -37,7 +37,7 @@ function Login({ setIsAuth }) {
 
     try {
       const res = await axios.post(
-        "http://127.0.0.1:8000/api/token/",
+        "https://jyothish.pythonanywhere.com/api/token/",
         {
           username: form.username,
           password: form.password
@@ -48,7 +48,7 @@ function Login({ setIsAuth }) {
       localStorage.setItem("refresh", res.data.refresh);
 
       const profile = await axios.get(
-        "http://127.0.0.1:8000/api/profile/",
+        "https://jyothish.pythonanywhere.com/api/profile/",
         {
           headers: {
             Authorization: `Bearer ${res.data.access}`

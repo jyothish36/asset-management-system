@@ -12,7 +12,7 @@ function MyAssets() {
         const token = localStorage.getItem("token");
 
         const res = await axios.get(
-          "http://127.0.0.1:8000/api/my-assets/",
+          "https://jyothish.pythonanywhere.com/api/my-assets/",
           {
             headers: {
               Authorization: `Bearer ${token}`,

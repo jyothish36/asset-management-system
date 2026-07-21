@@ -13,7 +13,7 @@ function RepairTickets() {
         const token = localStorage.getItem("token");
 
         const res = await axios.get(
-          "http://127.0.0.1:8000/api/my-assets/",
+          "https://jyothish.pythonanywhere.com/api/my-assets/",
           {
             headers: {
               Authorization: `Bearer ${token}`
@@ -37,7 +37,7 @@ function RepairTickets() {
       const token = localStorage.getItem("token");
 
       await axios.post(
-        "http://127.0.0.1:8000/api/tickets/",
+        "https://jyothish.pythonanywhere.com/api/tickets/",
         {
           asset,
           issue,

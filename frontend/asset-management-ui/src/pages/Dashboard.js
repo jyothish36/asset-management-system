@@ -27,7 +27,7 @@ function Dashboard() {
   const [username, setUsername] = useState("");
   const [stats, setStats] = useState({
     totalAssets: 0,
-    availableAssets: 0,
+    availableAssets: 0, 
     assignedAssets: 0,
     totalInventory: 0,
     openTickets: 0,
@@ -40,7 +40,7 @@ function Dashboard() {
         const token = localStorage.getItem("token");
 
         const profileRes = await axios.get(
-          "http://127.0.0.1:8000/api/profile/",
+          "https://jyothish.pythonanywhere.com/api/profile/",
           {
             headers: {
               Authorization: `Bearer ${token}`
@@ -50,7 +50,7 @@ function Dashboard() {
         setUsername(profileRes.data.username);
 
         const assetRes = await axios.get(
-          "http://127.0.0.1:8000/api/assets/",
+          "https://jyothish.pythonanywhere.com/api/assets/",
           {
             headers: {
               Authorization: `Bearer ${token}`
@@ -59,7 +59,7 @@ function Dashboard() {
         );
 
         const inventoryRes = await axios.get(
-          "http://127.0.0.1:8000/api/inventory/",
+          "https://jyothish.pythonanywhere.com/api/inventory/",
           {
             headers: {
               Authorization: `Bearer ${token}`
@@ -68,7 +68,7 @@ function Dashboard() {
         );
 
         const dashboardRes = await axios.get(
-          "http://127.0.0.1:8000/api/dashboard-stats/",
+          "https://jyothish.pythonanywhere.com/api/dashboard-stats/",
           {
             headers: {
               Authorization: `Bearer ${token}`
