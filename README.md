@@ -95,6 +95,7 @@ login page
 <img width="1906" height="859" alt="Screenshot 2026-07-03 032717" src="https://github.com/user-attachments/assets/342a738f-af98-41b4-8076-d6611fc528d7" />
 Admin Dashboard
 <img width="1903" height="847" alt="Screenshot 2026-07-03 032751" src="https://github.com/user-attachments/assets/4336f820-b046-4ea8-806f-2e07a7a6ce20" />
+<img width="1904" height="859" alt="Screenshot 2026-07-03 032825" src="https://github.com/user-attachments/assets/a77e2d58-f281-4c37-8401-bee6bb3df6c7" />
 Employee Dashboard
 <img width="1907" height="855" alt="Screenshot 2026-07-03 033142" src="https://github.com/user-attachments/assets/d495cb32-e721-4351-a146-ab2c0f1aa128" />
 
