@@ -89,23 +89,17 @@ The project includes Docker configuration for containerized development and depl
     docker compose up --build
 
 ## 📸 Screenshots
-Screenshots of the Admin Dashboard, Employee Dashboard, Asset Management, Inventory Management, and Repair Ticket features will be added here.
+Screenshots of the Admin Dashboard, Employee Dashboard ,login page will be added here.
 
 login page
-<img width="1906" height="859" alt="Screenshot 2026-07-03 032717" src="https://github.com/user-attachments/assets/2f5de94c-cb35-4acb-9339-3d4ebfe2f000" /> 
-
+<img width="1906" height="859" alt="Screenshot 2026-07-03 032717" src="https://github.com/user-attachments/assets/342a738f-af98-41b4-8076-d6611fc528d7" />
 Admin Dashboard
-<img width="1903" height="847" alt="Screenshot 2026-07-03 032751" src="https://github.com/user-attachments/assets/d0821f3a-08a8-4c18-979a-f46c717166e1" />
-
-Employee Dashboard<img width="1907" height="852" alt="Screenshot 2026-07-03 033057" src="https://github.com/user-attachments/assets/ad299c7b-a44d-4d33-850a-47e0057eb867" />
-
-<img width="1907" height="855" alt="Screenshot 2026-07-03 033142" src="https://github.com/user-attachments/assets/fd6599a9-2cf5-472e-90c0-ed845b0b08cb" />
-
- <img width="1907" height="852" alt="Screenshot 2026-07-03 033057" src="https://github.com/user-attachments/assets/e82f28d2-37bf-413b-a5d7-79cf0e9164e2" />
+<img width="1903" height="847" alt="Screenshot 2026-07-03 032751" src="https://github.com/user-attachments/assets/4336f820-b046-4ea8-806f-2e07a7a6ce20" />
+Employee Dashboard
+<img width="1907" height="855" alt="Screenshot 2026-07-03 033142" src="https://github.com/user-attachments/assets/d495cb32-e721-4351-a146-ab2c0f1aa128" />
 
 
-## 🔮 Future Enhancements<img width="1907" height="855" alt="Screenshot 2026-07-03 033142" src="https://github.com/user-attachments/assets/a5d1a969-8cef-4e7d-950a-daa47201337a" />
-
+## 🔮 Future Enhancements
 
 - Email notifications
 - Advanced asset reports and analytics
