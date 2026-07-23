@@ -1,88 +1,120 @@
 # Asset Management System
 
-A Full Stack Asset Management System built using React.js, Django REST Framework, and JWT Authentication.
+A full-stack **Asset Management System** built with React.js and Django REST Framework. The application provides role-based portals for administrators and employees to manage organizational assets, inventory, assignments, and repair tickets.
 
-## Features
+## 🌐 Live Demo
+
+**Live Application:** https://asset-management-system-two-green.vercel.app
+
+> The frontend is deployed on Vercel and the Django REST API backend is hosted on PythonAnywhere.
+
+## ✨ Features
 
 ### Admin
-- Dashboard with analytics
-- Asset Management
-- Inventory Management
-- Repair Ticket Management
-- Role-Based Access Control
+- Dashboard with asset and inventory statistics
+- Add, update, and manage assets
+- Inventory management
+- Assign assets to employees
+- Repair ticket management
+- Role-based access control
 
 ### Employee
-- Employee Dashboard
-- View Assigned Assets
-- Profile Management
-- Submit Repair Tickets
+- Dedicated employee dashboard
+- View assigned assets
+- View and manage profile
+- Submit repair tickets
+- Track asset-related information
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-### Frontend
+**Frontend**
 - React.js
 - Axios
 - CSS
 
-### Backend
+**Backend**
+- Python
 - Django
 - Django REST Framework
-- Simple JWT Authentication
 
-### Database
-- SQLite
-
-## Authentication
-- JWT Login
+**Authentication**
+- JWT Authentication
 - Protected Routes
 - Role-Based Authorization
 
-## Project Structure
+**Database**
+- SQLite
 
-```text
-asset-management-system
-│
-├── backend
-│
-├── frontend
-│
-└── README.md
-```
+**DevOps & Deployment**
+- Docker
+- Docker Compose
+- Git & GitHub
+- Vercel — Frontend
+- PythonAnywhere — Backend
 
-## Installation
+## 📁 Project Structure
+
+    asset-management-system/
+    │
+    ├── backend/
+    │   ├── asset_management/
+    │   ├── Dockerfile
+    │   └── requirements.txt
+    │
+    ├── frontend/
+    │   └── asset-management-ui/
+    │
+    ├── docker-compose.yml
+    └── README.md
+
+## 🚀 Running Locally
 
 ### Backend
 
-```bash
-cd backend
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
-```
+    cd backend/asset_management
+    pip install -r ../requirements.txt
+    python manage.py migrate
+    python manage.py runserver
 
 ### Frontend
 
-```bash
-cd frontend
-npm install
-npm start
-```
+    cd frontend/asset-management-ui
+    npm install
+    npm start
 
-## Screenshots
+## 🐳 Docker
 
-Add screenshots here after deployment.
+The project includes Docker configuration for containerized development and deployment.
 
-## Future Enhancements
+    docker compose up --build
 
-- Docker Support
-- Email Notifications
-- Asset Reports
-- Export PDF Reports
-- Cloud Deployment
+## 📸 Screenshots
+Screenshots of the Admin Dashboard, Employee Dashboard, Asset Management, Inventory Management, and Repair Ticket features will be added here.
 
-## Author
+login page
+<img width="1906" height="859" alt="Screenshot 2026-07-03 032717" src="https://github.com/user-attachments/assets/2f5de94c-cb35-4acb-9339-3d4ebfe2f000" /> 
 
-Jyothish P A
+Admin Dashboard
+<img width="1903" height="847" alt="Screenshot 2026-07-03 032751" src="https://github.com/user-attachments/assets/d0821f3a-08a8-4c18-979a-f46c717166e1" />
 
-GitHub:
-https://github.com/jyothish36
+Employee Dashboard<img width="1907" height="852" alt="Screenshot 2026-07-03 033057" src="https://github.com/user-attachments/assets/ad299c7b-a44d-4d33-850a-47e0057eb867" />
+
+<img width="1907" height="855" alt="Screenshot 2026-07-03 033142" src="https://github.com/user-attachments/assets/fd6599a9-2cf5-472e-90c0-ed845b0b08cb" />
+
+ <img width="1907" height="852" alt="Screenshot 2026-07-03 033057" src="https://github.com/user-attachments/assets/e82f28d2-37bf-413b-a5d7-79cf0e9164e2" />
+
+
+## 🔮 Future Enhancements<img width="1907" height="855" alt="Screenshot 2026-07-03 033142" src="https://github.com/user-attachments/assets/a5d1a969-8cef-4e7d-950a-daa47201337a" />
+
+
+- Email notifications
+- Advanced asset reports and analytics
+- PDF/Excel report export
+- Search and filtering enhancements
+- Production database migration to PostgreSQL
+
+## 👨‍💻 Author
+
+**Jyothish P A**
+
+GitHub: https://github.com/jyothish36
